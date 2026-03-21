@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+numpy
+requests
+sentence-transformers
+scikit-learn
+torch==2.3.0

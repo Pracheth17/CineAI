@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  background: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), #141414),
+              url("https://images.unsplash.com/photo-1524985069026-dd778a71c7b4");
+  background-size: cover;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.chat-container input {
+  width: 100%;
+  max-width: 300px;
+  padding: 14px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.chat-container button {
+  padding: 14px 20px;
+  font-size: 16px;
+  background: #e50914;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.chat-container button:hover {
+  background: #b20710;
+}
+
+.row {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 200px;
+  background: #1f1f1f;
+  border-radius: 12px;
+  padding: 18px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.7);
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.reason {
+  font-size: 18px;
+  color: #aaa;
+  margin-top:8px;
+}
+
+.skeleton {
+  height: 200px;
+  background: #333;
+  margin: 20px;
+  border-radius: 10px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+button {
+  border-radius: 5px;
+  margin: 5px;
+}

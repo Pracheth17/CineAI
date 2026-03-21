@@ -1,0 +1,12 @@
+venv/
+ai_env/
+__pycache__/
+*.pyc
+*.pkl
+
+node_modules/
+frontend/node_modules/
+build/
+
+.env
+.DS_Store
