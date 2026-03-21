@@ -1,18 +1,37 @@
+# Python virtual environments
 venv/
 ai_env/
+
+# Python cache & compiled files
 __pycache__/
-*.pkl
-users.db
-node_modules/
-frontend/node_modules/
 *.pyc
 *.pyo
 *.pyd
+
+# Data / models
+*.pkl
+
+# Database
+users.db
+
+# Environment variables
 .env
+
+# Logs
 *.log
-.DS_Store
-Thumbs.db
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build files
 dist/
 build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
 .vscode/
 .idea/
